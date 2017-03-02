@@ -1,0 +1,10 @@
+xplane-get-apts
+
+This script downloads all the recommended sceneries from the X-Plane Gateway
+and concatenates them into a single apt.dat.
+
+The downloaded airports are cached and the process may be stopped and resumed
+at any time.
+
+To create an updated airports file, delete out/json.meta and run the script
+-- only the updated airports will be downloaded from the gateway.
